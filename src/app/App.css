@@ -1,0 +1,36 @@
+.App {
+  padding-left: 103px;
+  padding-right: 103px;
+}
+
+body {
+  background-color: rgb(243,247,250);
+}
+
+.logo {
+  margin-left: auto;
+  margin-right: auto;
+
+  margin-left: 50%;
+  margin-right: 50%;
+
+}
+
+
+.AppView{
+  display:flex;
+  justify-content: center;
+  flex-direction: row;
+
+  min-width: 760px;
+}
+
+
+@media (width <= 880px) {
+  .App {
+    padding: 0 20px;
+  }
+  .logo {
+    margin-left: 380px;
+  }
+}
